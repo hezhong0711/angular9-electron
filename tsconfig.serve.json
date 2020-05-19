@@ -17,10 +17,12 @@
     ]
   },
   "include": [
-    "main.ts"
+    "main.ts",
+    "main/**/*.ts"
   ],
   "exclude": [
     "node_modules",
-    "**/*.spec.ts"
+    "**/*.spec.ts",
+    "main/test/**/*"
   ]
 }

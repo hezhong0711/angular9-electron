@@ -29,7 +29,7 @@ export default function setup(): void {
     await this.app.start();
     const browser = this.app.client;
     // console.log(browser);
-    await browser.waitUntilWindowLoaded(10000);
+    await browser.waitUntilWindowLoaded(20000);
   });
 
   afterEach(function() {

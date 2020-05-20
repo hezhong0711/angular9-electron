@@ -134,8 +134,9 @@
           "options": {
             "tsConfig": [
               "tsconfig.app.json",
+              "tsconfig.serve.json",
               "tsconfig.spec.json",
-              "e2e/tsconfig.json"
+              "test/e2e/tsconfig.e2e.json"
             ],
             "exclude": [
               "**/node_modules/**"

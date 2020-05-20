@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "mind-video": {
+    "angular9-electron": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -93,18 +93,18 @@
         "serve": {
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
-            "browserTarget": "mind-video:build"
+            "browserTarget": "angular9-electron:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "mind-video:build:production"
+              "browserTarget": "angular9-electron:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "mind-video:build"
+            "browserTarget": "angular9-electron:build"
           }
         },
         "test": {
@@ -146,18 +146,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "mind-video:serve"
+            "devServerTarget": "angular9-electron:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "mind-video:serve:production"
+              "devServerTarget": "angular9-electron:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "mind-video",
+  "defaultProject": "angular9-electron",
   "cli": {
     "analytics": false
   }

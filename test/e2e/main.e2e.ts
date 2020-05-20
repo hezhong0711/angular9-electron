@@ -3,7 +3,7 @@ import {SpectronClient} from 'spectron';
 
 import commonSetup from './common-setup';
 
-describe('mind-video App', function() {
+describe('angular9-electron App', function() {
   commonSetup.apply(this);
 
   let browser: any;

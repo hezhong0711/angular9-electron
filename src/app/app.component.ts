@@ -9,7 +9,7 @@ import {AppConfig} from '../environments/environment';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'mind-video';
+  title = 'angular9-electron';
 
   constructor(
     public electronService: ElectronService,

@@ -4,6 +4,10 @@ const path = require('path');
 
 export default function setup(): void {
   beforeEach(async function() {
+    console.log('=======================');
+    console.log(electronPath);
+    console.log(path.join(__dirname, '..', '..'));
+    console.log('=======================');
     this.app = new Application({
       // Your electron path can be any binary
       // i.e for OSX an example path could be '/Applications/MyApp.app/Contents/MacOS/MyApp'
@@ -23,7 +27,7 @@ export default function setup(): void {
 
       // The following line tells spectron to look and use the main.js file
       // and the package.json located 1 level above.
-      args: [path.join(__dirname, '..')],
+      args: [path.join(__dirname, '..', '..')],
       webdriverOptions: {}
     });
     await this.app.start();

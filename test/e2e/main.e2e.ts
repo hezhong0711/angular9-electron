@@ -3,7 +3,7 @@ import {SpectronClient} from 'spectron';
 
 import commonSetup from './common-setup';
 
-describe('mind-video-player App', function() {
+describe('mind-video App', function() {
   commonSetup.apply(this);
 
   let browser: any;

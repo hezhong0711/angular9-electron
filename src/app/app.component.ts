@@ -7,7 +7,7 @@ import {TranslateService} from '@ngx-translate/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'angural9-electron';
+  title = 'angular9-electron';
 
   constructor(
     private translate: TranslateService

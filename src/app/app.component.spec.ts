@@ -20,10 +20,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angural9-electron'`, () => {
+  it(`should have as title 'angular9-electron'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angural9-electron');
+    expect(app.title).toEqual('angular9-electron');
   });
 
 });

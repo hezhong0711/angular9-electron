@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angural9-electron": {
+    "angular9-electron": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angural9-electron:build"
+            "browserTarget": "angular9-electron:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angural9-electron:build:production"
+              "browserTarget": "angular9-electron:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angural9-electron:build"
+            "browserTarget": "angular9-electron:build"
           }
         },
         "test": {
@@ -115,18 +115,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angural9-electron:serve"
+            "devServerTarget": "angular9-electron:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angural9-electron:serve:production"
+              "devServerTarget": "angular9-electron:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "angural9-electron",
+  "defaultProject": "angular9-electron",
   "cli": {
     "analytics": false
   }
